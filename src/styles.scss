@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-color: rgb(28, 33, 62);
+     color: rgb(221, 221, 221);
+     display: flex;
+     justify-content: center;
+}
+
+.page-title {
+     text-align: center;
+}
+
+.player-info {
+     margin: 2rem;
+     text-align: center;
+     color: rgb(150, 150, 150);
+}
+
+.newGame {
+     display: flex;
+     justify-content: center;
+}
+
+.newGame button {
+     border: 2px solid rgba(255, 61, 61, 0.5);
+     border-radius: 5px;
+     background: none;
+     padding: 1rem;
+     color: white;
+}
+
+.newGame button:hover {
+     border-color: rgb(255, 61, 61);
+     background: rgb(255, 61, 61);
+     transition: all 0.5s;
+}
+
+.winnerInfo {
+     height: 1.5rem;
+     text-align: center;
+     margin-top: 1rem;
+}
+
+.winnerInfo-hide {
+     visibility: hidden;
+}
+
+main {
+     margin-top: 1rem;
+     display: grid;
+     grid-template-columns: 8rem 8rem 8rem;
+     grid-gap: 1rem;
+}
+
+app-square {
+     border: 1.5px rgba(255, 255, 255, 0.1) solid;
+     border-radius: 5px;
+     height: 8rem;
+     width: 8rem;
+}
+
+app-square:hover {
+     border: 1.5px solid white;
+     transition: all 0.5s;
+}
+
+app-square button {
+     width: 100%;
+     height: 100%;
+     font-size: 5rem;
+     color: white;
+     border: 0;
+}
+
+.button-x {
+     background-color: rgb(107, 53, 202);
+}
+
+.button-o {
+     background-color: rgb(251, 87, 42);
+}

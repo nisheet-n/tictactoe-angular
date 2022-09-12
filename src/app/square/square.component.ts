@@ -3,7 +3,8 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-square',
   template: `
-    <button>{{value}}</button>
+    <button class="button-x" *ngIf="value=='X'">{{value}}</button>
+    <button class="button-o" *ngIf="value=='O'">{{value}}</button>  
   `,
   styles: []
 })

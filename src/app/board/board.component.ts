@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-board',
   templateUrl: './board.component.html',
-  styleUrls: ['./board.component.scss']
+  styleUrls: ['../../../src/styles.scss']
 })
 export class BoardComponent implements OnInit {
   squares!: any[];
@@ -43,7 +43,7 @@ export class BoardComponent implements OnInit {
       [1, 4, 7],
       [2, 5, 8],
       [0, 4, 8],
-      [2, 4, 8]
+      [2, 4, 6]
     ];
 
     for (let i = 0; i < lines.length; i++) {
