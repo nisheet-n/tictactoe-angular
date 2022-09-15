@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1663235663629,
+  "timestamp": 1663237701493,
   "index": "/tictactoe-angular/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/tictactoe-angular/favicon.ico",
         "/tictactoe-angular/index.html",
-        "/tictactoe-angular/main.b914588c020eeba7.js",
+        "/tictactoe-angular/main.5b3e4a5165d774d6.js",
         "/tictactoe-angular/manifest.webmanifest",
         "/tictactoe-angular/polyfills.66e51308c4a4f395.js",
         "/tictactoe-angular/runtime.1204ad1466b7fe2c.js",
-        "/tictactoe-angular/styles.f9d15812caac3a8a.css"
+        "/tictactoe-angular/styles.0e9100fa864ae32a.css"
       ],
       "patterns": []
     },
@@ -52,12 +52,12 @@
     "/tictactoe-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/tictactoe-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/tictactoe-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/tictactoe-angular/index.html": "75aeace78b6ff93dff9ea61097122eaff53e8f72",
-    "/tictactoe-angular/main.b914588c020eeba7.js": "584c50aa7938eec3a7bc3839f6c8137e41be9495",
+    "/tictactoe-angular/index.html": "f09c0bb29ea361cd42ab350ffe47fa996519b776",
+    "/tictactoe-angular/main.5b3e4a5165d774d6.js": "88d2ab7b200efbee4b157d58b1a1192873faf855",
     "/tictactoe-angular/manifest.webmanifest": "31856af0477f86abdb8f64546ae4dcada5eee645",
     "/tictactoe-angular/polyfills.66e51308c4a4f395.js": "c3eee8b4d0ec4aa9c60811921d83cd5f558bc06c",
     "/tictactoe-angular/runtime.1204ad1466b7fe2c.js": "4ef74dfae3c0f5795b0c263f43e914c55b26a905",
-    "/tictactoe-angular/styles.f9d15812caac3a8a.css": "4dfd1eba91b800eb37102e2f9881b1f23eb25e77"
+    "/tictactoe-angular/styles.0e9100fa864ae32a.css": "e1904cad864d878dfbf659ecd763359b61278f57"
   },
   "navigationUrls": [
     {
