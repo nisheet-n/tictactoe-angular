@@ -1,14 +1,8 @@
 <h1 class="page-title">Tic Tac Toe</h1>
-<h3 class="player-info">Current Player: {{player}}</h3>
+
 <div class="newGame">
-     <button (click)="newGame()">New Game</button>
+     <button *ngIf="winner" (click)="newGame()">New Game</button>
 </div>
-
-<h2 class="winnerInfo winnerInfo-show" *ngIf="winner">
-     Player {{winner}} won the game!
-</h2>
-
-<h2 class="winnerInfo winnerInfo-hide" *ngIf="!winner"></h2>
 
 <main>
      <app-square *ngFor="
@@ -16,3 +10,8 @@
      let i=index" [value]="val" (click)="makeMove(i)">
      </app-square>
 </main>
+
+<h2 class="player-info" *ngIf="!winner">Current Player: {{player}}</h2>
+<h2 class="winner-info" *ngIf="winner">
+     Player {{winner}} won the game!
+</h2>

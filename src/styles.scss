@@ -12,18 +12,16 @@ body {
 }
 
 .page-title {
+     margin-top: 1rem;
      text-align: center;
-}
-
-.player-info {
-     margin: 2rem;
-     text-align: center;
-     color: rgb(150, 150, 150);
 }
 
 .newGame {
+     margin-top: 2rem;
+     height: 3rem;
      display: flex;
      justify-content: center;
+     align-items: center;
 }
 
 .newGame button {
@@ -40,33 +38,27 @@ body {
      transition: all 0.5s;
 }
 
-.winnerInfo {
-     height: 1.5rem;
-     text-align: center;
-     margin-top: 1rem;
-}
-
-.winnerInfo-hide {
-     visibility: hidden;
-}
-
 main {
      margin-top: 1rem;
-     display: grid;
-     grid-template-columns: 8rem 8rem 8rem;
-     grid-gap: 1rem;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     height: 30rem;
+     width: 30rem;
 }
 
 app-square {
      border: 1.5px rgba(255, 255, 255, 0.1) solid;
      border-radius: 5px;
+     margin: 0.5rem;
      height: 8rem;
      width: 8rem;
 }
 
 app-square:hover {
      border: 1.5px solid white;
-     transition: all 0.5s;
+     transition: 0.75s;
 }
 
 app-square button {
@@ -77,10 +69,61 @@ app-square button {
      border: 0;
 }
 
+@media screen and (max-width: 1500px) {
+     main {
+          height: 25rem;
+          width: 25rem;
+     }
+
+     app-square {
+          height: 7rem;
+          width: 7rem;
+     }
+
+     app-square button {
+          font-size: 4rem;
+     }
+
+     h2 {
+          font-size: 1.25rem;
+     }
+}
+
+@media screen and (max-width: 650px) {
+     main {
+          height: 20rem;
+          width: 20rem;
+     }
+
+     app-square {
+          height: 5rem;
+          width: 5rem;
+     }
+
+     app-square button {
+          font-size: 3rem;
+     }
+
+     h2 {
+          font-size: 1rem;
+     }
+}
+
 .button-x {
      background-color: rgb(107, 53, 202);
 }
 
 .button-o {
      background-color: rgb(251, 87, 42);
+}
+
+.player-info {
+     margin-top: 1.5rem;
+     text-align: center;
+     color: rgb(150, 150, 150);
+}
+
+.winner-info {
+     margin-top: 1.5rem;
+     text-align: center;
 }
